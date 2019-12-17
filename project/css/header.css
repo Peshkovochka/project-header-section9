@@ -1,0 +1,290 @@
+html {
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 1rem;
+    
+    
+    padding: 1rem 1rem 0 1rem;
+    background-image: url(../images/header-bg-mobile.png);
+    background-repeat: no-repeat;
+    margin-bottom: 4rem;
+
+}
+
+.header_box {
+    width: 90%;
+}
+
+.header_top {
+    display: flex;
+    
+    margin: 0 0 1.4rem 0;
+    
+}
+
+.header_top_img {
+    width: 5.5rem;
+    margin-bottom: 4rem;
+}
+
+.header_nav {
+    display: none;
+    
+}
+
+.header_nav_list {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+}
+.header_nav_item {
+    font-size: 1rem;
+}
+
+.header_nav_item_link {
+    font-size: 1rem;
+}
+
+.header_box_txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.header_box_h5 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    max-width: 11rem;
+}
+
+
+.header_box_h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    max-width: 16rem;
+}
+
+.header_box_a {
+    font-size: 1rem;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.header_box_a:hover {
+    text-decoration: underline;
+}
+
+.header_box_kids {
+    height: 7.2rem;
+}
+
+.header_box_btn {
+    display:none;
+}
+
+@media (min-width: 768px) {
+
+    .header {
+        background-image: url(../images/header-bg-tablet.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+        
+    }
+
+    .header_top {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .header_nav {
+        width: 23rem;
+        display: flex;
+        align-items: space-between;
+        justify-content: space-between;
+    }
+
+    .header_nav_list {
+        width: 23rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header_nav_item_link {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    
+    .header_box_h5 {
+        font-size: 1.2rem;
+        margin-bottom:2.8rem;
+        max-width: max-content;
+    }
+
+    .header_box_h2 {
+        font-size: 1.7rem;
+        max-width: 27rem;
+        margin-bottom: 3rem;
+    }
+
+    .header_box_a {
+        font-size: 0.9rem;
+        font-weight:400;
+        margin-bottom: 6rem;
+    }
+    .header_box_kids {
+        height: 18rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .header {
+        background-image: url(../images/students-img.jpg);
+        background-repeat: no-repeat;  
+        background-size: 100%;
+    }
+
+    .header_box {
+        margin-bottom:rem;
+    }
+
+    .header_box_kids, .header_box_a {
+        display: none;
+    }
+
+    .header_top {
+        margin-bottom: 2rem;
+    }
+    
+    .header_box_h5 {
+        font-size: 1.75rem;
+
+    }
+    .header_box_h2 {
+        font-size: 2.25rem;
+        margin-bottom: 8rem;
+        max-width: 48rem;
+    }
+
+    
+    .header_box_btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25rem;
+        
+        background-color: black;
+        border: none;
+        height: 3rem;
+        width: 18rem;
+        border-radius: 1rem;
+
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: #eec14d;
+        font-size: 1rem;
+
+        
+        -webkit-box-shadow: 13px 13px 25px -1px rgba(0,0,0,0.63);
+        -moz-box-shadow: 13px 13px 25px -1px rgba(0,0,0,0.63);
+        box-shadow: 13px 13px 25px -1px rgba(0,0,0,0.63);
+
+
+    }
+
+}
+
+@media (min-width:1900px) {
+    .header {
+        background-image: url(../images/students-img.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+
+    .header_top {
+        margin: 1rem 0 3rem 0;
+        
+    }
+
+    .header_top_img {
+        height: 3rem;
+        width: 10rem;
+    }
+    .header_nav {
+        width: 50rem;
+        align-items: space-between;
+        justify-content: space-between;
+    
+    }
+    .header_nav_list {
+        width: 50rem;
+       display: flex;
+       justify-items: space-around;
+
+   }
+
+    .header_nav_item_link {
+        font-size: 1.5rem;
+
+    }
+    .header_box_h5 {
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+
+    }
+    .header_box_h2 {
+        font-size: 3rem;
+        max-width: 60rem;
+        margin-bottom: 14rem;
+    }
+    
+    .header_box_btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80rem;
+        
+        background-color: black;
+        border: none;
+        height: 4rem;
+        width: 25rem;
+        border-radius: 1.3rem;
+
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: #eec14d;
+        font-size: 1.5rem;
+
+        
+        -webkit-box-shadow: 13px 13px 25px -1px rgba(0,0,0,0.63);
+        -moz-box-shadow: 13px 13px 25px -1px rgba(0,0,0,0.63);
+        box-shadow: 13px 13px 25px -1px rgba(0,0,0,0.63);
+    }
+}
