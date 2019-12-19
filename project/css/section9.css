@@ -29,7 +29,9 @@
     flex-flow: row wrap;
     justify-content: center;
 
+    position: relative;
 }
+
 .section9_content_card {
     width: 16.875rem;
     height: 29rem;
@@ -40,7 +42,7 @@
     text-align: center;
     justify-content: space-around;
 
-    position: relative;
+    
     
     -webkit-box-shadow: 1px 8px 36px -26px rgba(0,0,0,0.63);
     -moz-box-shadow: 1px 8px 36px -26px rgba(0,0,0,0.63);
@@ -50,7 +52,6 @@
 .section9_content_card2, .section9_content_card3 {
     display:none;
 }
-
 
 
 .section9_content_card_img {
@@ -87,7 +88,7 @@
     box-shadow: 1.5px 2.598px 9px 0px rgba(2, 2, 1, 0.1);
 
     position: absolute;
-    right: 245px;
+    left: 4px;
 }
 
 .section9_btn_right {
@@ -103,13 +104,11 @@
     box-shadow: 1.5px 2.598px 9px 0px rgba(2, 2, 1, 0.1);
 
     position: absolute;
-    left: 245px;
+    right: 4px;
 }
 
 .section9_btn_left:hover, .section9_btn_right:hover {
     color: #5f7cec;
-
-
 }
 
 
@@ -126,8 +125,6 @@
         text-align: center;
         justify-content: space-around;
 
-        position: relative;
-
         -webkit-box-shadow: 1px 8px 36px -26px rgba(0,0,0,0.63);
         -moz-box-shadow: 1px 8px 36px -26px rgba(0,0,0,0.63);
         box-shadow: 1px 8px 36px -26px rgba(0,0,0,0.63);
@@ -139,12 +136,12 @@
 
     .section9_btn_left {
         position: absolute;
-        left: -25px;
+        left: 170px;
     }
 
     .section9_btn_right {
         position: absolute;
-        left: 354px;
+        right: 170px;
     }
 
 }
@@ -164,10 +161,7 @@
     }
 
     .section9_content {
-        
         margin: auto;
-
-        position: relative;
     }
 
     .section9_btn_left {
@@ -177,26 +171,30 @@
 
     .section9_btn_right {
         position: absolute;
-        left: 1120px;
+        right: 30px;
     }
 
 }
 
-@media (min-width:1900px) {
+@media (min-width:1920px) {
 
     .section9_content_card {
-        width: 28rem;
-        height: 42rem;
-        position: static;
+        width: 28px;
+        height: 36px;
+    }
+
+    .section9_content {
+        margin:auto;
+        position: relative;
     }
 
     .section9_btn_left {
         position: absolute;
-        left: 245px;
+        left:350px;
     }
 
     .section9_btn_right {
         position: absolute;
-        left: 1625px;
+        right: 350px;
     }
 }
